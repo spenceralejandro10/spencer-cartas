@@ -1,0 +1,343 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #001f3f;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background: #001f3f;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-info, .social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Estilos específicos para authentication.html */
+.authentication {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.authentication h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.auth-form-container {
+    background: #ffffff;
+    border: 2px solid #001f3f;
+    border-radius: 10px;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form-container label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.auth-form-container input,
+.auth-form-container textarea,
+.auth-form-container select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form-container input[type="file"] {
+    padding: 0;
+}
+
+.auth-form-container button {
+    background: #ff4136;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.auth-form-container button:hover {
+    background: #e53935;
+}
+
+/* Estilos específicos para contact.html */
+.contact {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contact-form-container {
+    background: #ffffff;
+    border: 2px solid #001f3f;
+    border-radius: 10px;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form-container button {
+    background: #ff4136;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form-container button:hover {
+    background: #e53935;
+}
+
+/* Estilos específicos para services.html */
+.services {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: #ffffff;
+    border: 2px solid #001f3f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos específicos para shop.html */
+.shop {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.shop h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background: #ffffff;
+    border: 2px solid #001f3f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.product-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos específicos para blog.html */
+.blog {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.comment-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.comment {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #001f3f; /* Borde para resaltar la imagen */
+}
+
+.comment-header .info {
+    flex-grow: 1;
+}
+
+.comment-header h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #333; /* Color más oscuro para el título */
+}
+
+.comment-header span {
+    font-size: 14px;
+    color: #666;
+}
+
+.comment-content {
+    margin-top: 10px;
+    line-height: 1.6;
+    color: #333; /* Color de texto más oscuro */
+}
+
+.comment-actions {
+    margin-top: 10px;
+}
+
+.comment-actions button {
+    background-color: #ff4136;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.comment-actions button:hover {
+    background-color: #e53935;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Solicita la autenticación de tus artículos deportivos con PSA">
+    <title>PSA - Autenticación</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../img/logo.png" alt="PSA Logo">
+            </div>
+            <nav>
+                <ul>
+                    
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../html/services.html">Servicios</a></li>
+                    <li><a href="../html/authentication.html">Autenticación</a></li>
+                    <li><a href="../html/shop.html">Tienda</a></li>
+                    <li><a href="../html/blog.html">Blog</a></li>
+                    <li><a href="../html/contact.html">Contacto</a></li>
+                    <li><a href="../html/mantenimiento.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="authentication">
+        <div class="container">
+            <h2>Solicitud de Autenticación</h2>
+            <div class="auth-form-container">
+                <form action="submit-authentication.html" method="post" enctype="multipart/form-data">
+                    <label for="item-name">Nombre del Artículo:</label>
+                    <input type="text" id="item-name" name="item-name" required>
+
+                    <label for="item-description">Descripción del Artículo:</label>
+                    <textarea id="item-description" name="item-description" required></textarea>
+
+                    <label for="item-category">Categoría del Artículo:</label>
+                    <select id="item-category" name="item-category" required>
+                        <option value="cards">Tarjetas</option>
+                        <option value="memorabilia">Memorabilia</option>
+                        <option value="others">Otros</option>
+                    </select>
+
+                    <label for="item-images">Imágenes del Artículo:</label>
+                    <input type="file" id="item-images" name="item-images" multiple required>
+
+                    <label for="auth-type">Tipo de Autenticación:</label>
+                    <select id="auth-type" name="auth-type" required>
+                        <option value="standard">Estándar</option>
+                        <option value="premium">Premium</option>
+                    </select>
+
+                    <button type="submit" class="cta-button">Enviar Solicitud</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>© 2024 PSA - Professional Sports Authenticators</p>
+                <p>Contacto: info@psa.com | Teléfono: +123 456 7890</p>
+            </div>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
